@@ -1,0 +1,31 @@
+/* General styling */
+
+*,
+*::before,
+*after {
+    box-sizing: inherit;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Brown;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-wrapper {
+    margin: auto;
+    padding: 0 0;
+    width: 90%;
+}
