@@ -30,3 +30,27 @@ ul {
     width: 90%;
 }
 
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul button {
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 6px 17px 8px 14px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+    background-color: black;
+    height: 32px;
+}
+
