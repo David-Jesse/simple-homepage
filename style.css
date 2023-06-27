@@ -27,7 +27,7 @@ ul {
 .site-wrapper {
     margin: auto;
     padding: 0 0;
-    width: 90%;
+    width: 80%;
 }
 
 .nav-menu {
@@ -36,11 +36,14 @@ ul {
     justify-content: space-between;
     padding-top: 1%;
     padding-bottom: 4%;
+    align-items: center;
 }
 
 ul {
     display: flex;
     gap: 30px;
+    align-items: center;
+    font-size: 18px;
 }
 
 ul button {
@@ -54,3 +57,100 @@ ul button {
     height: 32px;
 }
 
+.hero-container {
+    display: flex;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content h2 {
+    width: 50%;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-content p {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.hero-content button {
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 6px 17px 8px 14px;
+    background-color: black;
+    border: solid #1f628d 1px;
+    color: #ffffff;
+}
+
+.second-section {
+    margin-top: 80px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.users h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    width: 55%;
+    text-align: center;
+    align-items: center;
+    line-height: 35px;
+    margin-left: 11.375rem;
+}
+
+.refs img {
+    margin-top: 54px;
+}
+
+.offers {
+    margin-top: 100px;
+}
+
+.offer-one h2 {
+    margin-left: 18.75rem;
+    font-size: 1.875rem;
+    width: 35%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 35px;
+}
+
+.sub-offers h3 {
+    width: 26%;
+    font-size: 1.64rem;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 50px;
+}
+
+.sub-offers h4 {
+    width: 30%;
+    color: #191919;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+.sub-offers button {
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 6px 17px 8px 14px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+    background-color: black;
+    height: 32px;
+}
+
+.offer-image img {
+    display: flex;
+}
