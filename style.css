@@ -59,11 +59,14 @@ ul button {
 
 .hero-container {
     display: flex;
+    margin-top: 44px;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
+    row-gap: 2px;
+    /* line-height: 20px; */
 }
 
 .hero-content h2 {
@@ -72,10 +75,13 @@ ul button {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.hero-content p {
+.hero-content h4 {
     width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 20px;
+    font-family: 'Roboto';
+    line-height: 17px;
+    font-size: 17px;
+    font-weight: 100;
+    row-gap: 0;
 }
 
 .hero-content button {
@@ -125,19 +131,29 @@ ul button {
     line-height: 35px;
 }
 
+.sub-offers {
+    display: flex;
+}
+
+/* .cta-offer {
+    margin-top: 30px;
+} */
+
 .sub-offers h3 {
-    width: 26%;
+    width: 60%;
     font-size: 1.64rem;
     line-height: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     gap: 50px;
+    margin-top: 130px;
 }
 
 .sub-offers h4 {
-    width: 30%;
+    width: 56%;
     color: #191919;
     font-family: 'Roboto';
     font-weight: 100;
+    font-size: 15px;
 }
 
 .sub-offers button {
