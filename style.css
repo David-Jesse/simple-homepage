@@ -70,9 +70,10 @@ ul button {
 }
 
 .hero-content h2 {
-    width: 50%;
+    width: 55%;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 66px;
 }
 
 .hero-content h4 {
@@ -171,3 +172,24 @@ ul button {
     display: flex;
 }
 
+.excellence {
+    display: flex;
+}
+
+.we-offer {
+    margin-top: 136px;
+    margin-left: 32px;
+}
+
+.personel img {
+    margin-right: 66px;
+}
+
+.we-offer h3 {
+    font-size: 25px;
+    width: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Roboto';
+    height: 44px;
+}
