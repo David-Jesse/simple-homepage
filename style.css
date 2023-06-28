@@ -186,10 +186,125 @@ ul button {
 }
 
 .we-offer h3 {
-    font-size: 25px;
-    width: 50%;
+    font-size: 26px;
+    width: 66%;
     font-weight: 700;
     line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 44px;
+}
+
+.we-offer h4 {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #191919;
+    line-height: 20px;
     font-family: 'Roboto';
+    width: 17.185rem;
+}
+
+.offer-section {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.no-fees h2 {
+    font-size: 30px;
+    margin-left: 20rem;
+    margin-top: 8.75rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+.offer-images {
+    display: flex;
+    flex-direction: row;
+    margin-left: -1.94rem;
+    margin-top: 72px;
+    justify-content: space-between;
+}
+
+.offer-images img {
+    align-items: center;
+    height: 50px;
+    margin-left: 130px;
+}
+
+.offer-images h3 {
+    font-size: 18px;
+    margin-left: 130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 5px;
+}
+
+.offer-images h5 {
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    width: 212px;
+    margin-left: 130px;
+}
+
+.meant-for {
+    display: flex;
+    margin-left: 80px;
+    gap: 26px;
+}
+
+.creatives h3 {
+    font-size: 25px;
+    width: 14.31rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 12.5rem;
+}
+
+.creatives h5 {
+    font-size: 18.5px;
+    width: 240px;
+    font-weight: lighter;
+    font-family: 'Roboto Serif';
+}
+
+.uta-container {
+    background-color: #212121;
+    border-radius: 2px;
+    height: 186px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    margin-top: 110px;
+    margin-left: 120px;
+}
+
+.uta-content {
+    align-items: center;
+}
+
+.uta-content h2 {
+    font-size: 20px;
+    width: 262px;
+    margin-left: 236px;
+    margin-top: 34px;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 900;
+    font-family: 'Noto Sans Georgian';
+}
+
+.uta-content button {
+    color: #000000;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 6px 17px 8px 14px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+    background-color: #D1EE1E;
+    height: 44px;
+    margin-left: 311px;
+    align-items: center;
+    margin-top: 4px;
+    font-weight: 700;
     height: 44px;
 }
