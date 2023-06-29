@@ -147,6 +147,7 @@ ul button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     gap: 50px;
     margin-top: 130px;
+    height: 42px;
 }
 
 .sub-offers h4 {
@@ -282,12 +283,12 @@ ul button {
 
 .uta-content {
     align-items: center;
+    width: 80%;
 }
 
 .uta-content h2 {
-    font-size: 20px;
-    width: 262px;
-    margin-left: 236px;
+    font-size: 28px;
+    margin-left: 134px;
     margin-top: 34px;
     text-align: center;
     line-height: 28px;
@@ -303,7 +304,7 @@ ul button {
     border: solid #1f628d 1px;
     text-decoration: none;
     background-color: #D1EE1E;
-    height: 44px;
+    height: 42px;
     margin-left: 311px;
     align-items: center;
     margin-top: 4px;
@@ -312,23 +313,60 @@ ul button {
 }
 
 .holding-container {
-    margin-top: 100px;
-    margin-left: 104px;
+    width: 100%;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    padding-top: 100px;
 }
 
 .content-container {
     display: flex;
     flex-direction: column;
+    width: 85%;
+    margin-left: 100px;
 }
 
-.footer-logo h3 {
-    width: 30%;
-    font-size: 32px;
-    line-height: 30px;
-    font-weight: 600;
-}
+/* .footer-logo img {
+    margin-bottom: 10px;
+} */
 
 .reach-us {
     display: flex;
-    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+}
+
+.reach-us h3 {
+    width: 211px;
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contacts {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    gap: 110px;
+}
+
+.foot-notes {
+    margin-top: 20px;
+    background-color: #000000;
+    width: 100%;
+    height: 80px;
+    padding: 0px 0px 0px 0px;
+    /* color: #D1EE1E; */
+}
+
+.legal-legal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal-legal h6{
+    margin: 20px 54px;
+    color: #D1EE1E;
+    font-size: 10px;
 }
