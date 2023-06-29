@@ -324,11 +324,8 @@ ul button {
     flex-direction: column;
     width: 85%;
     margin-left: 100px;
+    margin-top: 44px;
 }
-
-/* .footer-logo img {
-    margin-bottom: 10px;
-} */
 
 .reach-us {
     display: flex;
@@ -357,7 +354,6 @@ ul button {
     width: 100%;
     height: 80px;
     padding: 0px 0px 0px 0px;
-    /* color: #D1EE1E; */
 }
 
 .legal-legal {
