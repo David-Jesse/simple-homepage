@@ -257,6 +257,7 @@ ul button {
     width: 14.31rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 12.5rem;
+    height: 40px;
 }
 
 .creatives h5 {
@@ -264,6 +265,7 @@ ul button {
     width: 240px;
     font-weight: lighter;
     font-family: 'Roboto Serif';
+    line-height: 26px;
 }
 
 .uta-container {
@@ -307,4 +309,26 @@ ul button {
     margin-top: 4px;
     font-weight: 700;
     height: 44px;
+}
+
+.holding-container {
+    margin-top: 100px;
+    margin-left: 104px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo h3 {
+    width: 30%;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.reach-us {
+    display: flex;
+    flex-direction: row;
 }
